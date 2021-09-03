@@ -1,0 +1,61 @@
+.header-container{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    
+}
+.left-header{
+    display: flex;
+    align-items: center;
+}
+.icon-header{
+    margin: 0 10px;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -843px -30px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+.select-company{
+    display: flex;
+    align-items: center;
+}
+.name-company{
+    font-family: NotoSans-Bold;
+    padding-left: 10px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.icon-select{
+    margin:  10px 0;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -80px -350px;
+    height: 34px;
+    width: 14px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.right-header{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    align-items: center;
+}
+.icon-notify{
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -788px -30px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.user-avatar{
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -352px -894px;
+	width: 32px;
+	height: 32px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.user-name{
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,124 @@
+.table-container{
+    margin-top: 20px;
+    margin-bottom: 46px;
+    width: 100%;
+    height: calc(100vh - 250px);
+    padding-bottom: 50px;
+    overflow:auto;
+  }
+  
+  table thead{
+      background-color: #f4f5f8;
+  }
+  table {
+      font-family: Notosans-regular;
+      text-align: left;
+      padding: 0 16px;
+      width: calc(100vw - 225px);
+      height: calc(100vh - 129px - 46px - 70px);
+      border-collapse: separate;
+      border-spacing: 0;
+      position: relative;
+  }
+  
+  thead tr {
+      
+      height: 33px;
+      background-color: #eceef1;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+  }
+  thead tr th{
+      white-space: nowrap;
+      padding: 5px 10px;
+  }
+  thead tr th:nth-child(5){
+      text-align: center;
+  }
+  
+  tbody tr {
+      font-family: Notosans-regular;
+      max-height: 43px;
+      z-index: 2;
+      cursor: pointer;
+      outline: none;
+  }
+  tbody tr:hover{
+      background-color: #f3f8f8;
+  }
+  
+  td {
+      max-height: 43px;
+      padding: 5px 10px;
+      border-bottom: 1px solid #c7c7c7;
+      white-space: nowrap;
+  }
+  td:not(:last-child, :nth-last-child(2)) {
+      border-right: 1px dotted #c7c7c7;
+  }
+  td:last-child{
+      border-left: 1px dotted #c7c7c7;
+  }
+  
+  thead td:not(:last-child, :nth-last-child(2)) {
+      border-right: 1px solid #c7c7c7;
+  }
+  .select-box {
+      /* margin: 0 8px; */
+      width: 16px;
+      height: 16px;
+      border: 1px solid #afafaf;
+      background: #fff;
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .1s;
+  }
+  .dropdown-table{
+      display: flex;
+      position: relative;
+      margin: 0 16px 0 0;
+  }
+  .select-button-table{
+      margin-left:16px;
+      align-items: center;
+      display: flex;
+  }
+  .option-table{
+      position: absolute;
+      top: 32px;
+      display: none;
+      border: 1px solid #afafaf;
+      background-color: #fff;
+      z-index: 2;
+      right: 24px;
+  }
+  .value-table{
+      cursor: pointer;
+      padding: 5px 10px;
+      height: 28px;
+  }
+  .value-table:hover{
+      color: #2CA01C;
+      background-color: #eceef1;
+      
+  }
+  .dropdown-table .show-option{
+      display: block;
+  }
+  .icon-button{
+      margin-left: 8px;
+      right: -1px;
+      top: -1px;
+      width: 32px;
+      height: 32px;
+      background: url(../../img/Sprites.64af8f61.svg) no-repeat;
+      background-position: -888px -351px;
+  }
+  .dropdown-table .title{
+      color: #0075c0;
+  }

@@ -1,0 +1,128 @@
+.content-container{
+    background-color: #f4f5f8;
+    width: calc(100vw - 173px);
+    height: calc(100vh - 48px);
+    padding:0 20px 20px 20px;
+    position: relative;
+  }
+  .navbar{
+    padding: 24px 10px 24px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .title-content{
+    font-size: 24px;
+    font-family: NotoSans-Bold;
+  }
+  .button-add{
+    position: absolute;
+    right: 0;
+    background-color: #248b15;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .button-add:hover{
+    background-color: #35bf22;
+  }
+  .content-main{
+    position: relative;
+    background-color: #fff;
+    height: calc(100vh - 129px);
+    text-align: left;
+  }
+  .cover-filter{
+    display: flex;
+  }
+  .content-filter-section{
+    margin-left: auto;
+    display: flex;
+    padding: 16px 16px 10px 16px;
+    align-items: center;
+    
+  }
+  .content-filter-section input{
+    height: 32px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #BABEC5;
+    display: inline-block;
+    font-family: 'NotoSans-Regular', sans-serif !important;
+    padding: 6px 23px 6px 11px;
+    margin-bottom: 0;
+  }
+  .content-filter-section input:hover {
+    outline: 1px solid #E2E2E2;
+  }
+  .content-filter-section input:focus {
+    border-color: #2CA01C;
+  }
+  .content-filter-section input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+  }
+  .refresh-box{
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat ;
+    background-position: -418px -201px;
+    width: 36px;
+    height: 24px;
+    cursor: pointer;
+    padding: 0 6px;
+  }
+  .refresh-box:hover{
+    background-position: -1092px -90px;
+  }
+  .export-box{
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat ;
+    background-position: -700px -202px;
+    width: 36px;
+    height: 24px;
+    cursor: pointer;
+    padding: 0 6px;
+  }
+  .export-box:hover{
+    background-position: -1260px -90px;
+  }
+  .content-footer{
+    padding: 0 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 46px;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 0 20px;
+  }
+  .footer-left{
+    align-items: center;
+  }
+  .footer-right{
+    align-items: center;
+    display: flex;
+  }
+  .paging{
+    display:flex;
+    align-items:center;
+    margin-right: 16px;
+  }
+  .showForm{
+      display: block;
+  }
+  .button-paging{
+    cursor: pointer;
+    padding: 0 5px;
+  }
+  .page-active{
+    border: 1px solid #BABEC5;
+    font-family: NotoSans-Bold;
+  }
+  .hide-page-button{
+    cursor: default;
+    color: #BABEC5;
+  }

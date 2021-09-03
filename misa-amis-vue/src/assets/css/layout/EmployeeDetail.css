@@ -1,0 +1,184 @@
+.container-form{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.4);
+    z-index: 3;
+}
+.form {
+    position: relative;
+    width: 60vw;
+    height: calc(100vh - 48px);
+    background-color: #ffffff;
+    position: fixed;
+    top: 24px;
+    left: 20vw;
+    z-index: inherit;
+}
+.form-header{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+}
+.title-form{
+    display: flex;
+    padding: 20px 12px 20px 32px;
+    align-items: center;
+}
+.name-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.check-box-title{
+    padding: 0 20px;
+    display: flex;
+}
+.select-box {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #afafaf;
+    background: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+}
+.button-form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+.help-button{
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -89px -144px;
+    cursor: pointer;
+}
+.close-button-form{
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -144px -144px;
+    cursor: pointer;
+}
+.main-form{
+    padding: 0 32px;
+}
+.flex-form{
+    display: flex;
+    padding-bottom: 32px;
+}
+.column1{
+    margin-right: 10px;
+}
+.column2{
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+}
+.field{
+    margin-right: 10px;
+}
+.title-field{
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+.gender-radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    height: 32px;
+}
+input[type = "date"]{
+    min-width: 180px;
+}
+/* .gender-radio input{
+    width: 16px;
+    color: #2CA01C;
+    height: 16px;
+    margin-top: 24px;
+
+} */
+input[type="radio"]{
+    width: 16px;
+    background-color: #2CA01C;
+    height: 16px;
+    margin-top: 24px;;
+}
+input {
+    margin-bottom: 24px;
+    height: 32px;
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 2px;
+    border: 1px solid #BABEC5;
+    display: inline-block;
+    font-family: 'NotoSans-Regular', sans-serif !important;
+}
+.error-input{
+    border: 1px solid red;
+}
+input:hover {
+    outline: 1px solid #E2E2E2;
+}
+input:focus {
+    border-color: #2CA01C;
+}
+input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+.form-footer{
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.footer-right{
+    position: absolute;
+    right:0;
+    display: flex;
+}
+.first-button{
+    margin: 0 32px 32px 10px;
+    background-color: #248b15;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.second-button{
+    margin: 0 0px 32px 32px;
+    background-color: #fff;
+    border: 1px solid #8d9096;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.second-button:hover{
+    background-color: #d2d3d6;
+}
+hr{
+    margin: 32px 32px 0 32px;
+}
+.binding{
+    color:red;
+}

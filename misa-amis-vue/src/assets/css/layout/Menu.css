@@ -1,0 +1,104 @@
+.menu{
+    /* width: 179px; */
+    height: 100vh;
+    background-color: #393a3d;
+    position: relative;
+    cursor: pointer;
+    /* min-height: 700px; */
+}
+
+.logo-container{
+    height: 48px;
+    align-items: center;
+    display: flex;
+    padding-left: 16px;
+}
+.menu-container-option{
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat -424px -86px;
+}
+.logo{
+    height: 32px;
+    width: 52px;
+
+}
+.logo img{
+    height: 32px;
+    width: 96px;
+}
+.menu-list-item{
+    padding-top: 14px;
+    padding-right: 14px;
+    overflow: auto;
+    height: calc(100vh - 48px);
+}
+.menu-item{
+    align-items: center;
+    height: 42px;
+    display: flex;
+}
+.menu-item:hover{
+    background-color: #393a3d;
+    stroke-opacity: 0.2;
+}
+.menu-green{
+    /* background-color: chartreuse; */
+    width: 6px;
+    height: 42px;
+}
+.menu-logo{
+    margin: 0 8px;
+    width: 24px;
+    height: 42px;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat ;
+    background-position: -30px -1620px;
+}
+.menu-title{
+    color:#fff;
+    white-space: nowrap;
+}
+.menu-list-item .menu-item:nth-child(2) .menu-logo{
+    background-position: -73px -1620px;
+}
+.menu-list-item .menu-item:nth-child(3) .menu-logo{
+    background-position: -117px -1620px;
+}
+.menu-list-item .menu-item:nth-child(4) .menu-logo{
+    background-position: -161px -1620px;
+}
+.menu-list-item .menu-item:nth-child(5) .menu-logo{
+    background-position: -204px -1620px;
+}
+.menu-list-item .menu-item:nth-child(6) .menu-logo{
+    background-position: -249px -1620px;
+}
+.menu-list-item .menu-item:nth-child(7) .menu-logo{
+    background-position: -291px -1620px;
+}
+.menu-list-item .menu-item:nth-child(8) .menu-logo{
+    background-position: -336px -1620px;
+}
+.menu-list-item .menu-item:nth-child(9) .menu-logo{
+    background-position: -378px -1620px;
+}
+.menu-list-item .menu-item:nth-child(10) .menu-logo{
+    background-position: -423px -1620px;
+}
+.menu-list-item .menu-item:nth-child(11) .menu-logo{
+    background-position: -467px -1620px;
+}
+.menu-list-item .menu-item:nth-child(12) .menu-logo{
+    background-position: -510px -1620px;
+}
+.menu-list-item .menu-item:nth-child(13) .menu-logo{
+    background-position: -378px -1651px;
+}
+.menu-list-item .menu-item:nth-child(14) .menu-logo{
+    background-position: -547px -1620px;
+}
+.menu-list-item .menu-item:nth-child(15) .menu-logo{
+    background-position: -204px -1656px;
+}

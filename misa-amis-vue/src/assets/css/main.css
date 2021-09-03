@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'NotoSans-Italic';
+  src: url('../fonts/notosans-italic.1c1aaac9.woff2') format('opentype');
+}
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src: url('../fonts/notosans-bold.3ede5aff.woff2') format('opentype');
+}
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../fonts/notosans-regular.2cb88a13.woff2') format('opentype');
+}
+@font-face {
+  font-family: 'NotoSans-Semibold';
+  src: url('../fonts/notosans-semibold.df3e6dc4.woff2') format('opentype');
+}
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Notosans-regular;
+}
+body {
+  font-family: NotoSans-Regular;
+  font-size: 13px;
+  margin: 0px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #b8bcc3;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}

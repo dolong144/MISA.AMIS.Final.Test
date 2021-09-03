@@ -1,0 +1,79 @@
+.dropdown{
+    display: inline-block;
+    position: relative;
+    margin: 0 16px 0 0;
+}
+.dropdown .select-button{
+    position: relative;
+    display: flex;
+    height: 32px;
+    border-radius: 2px;
+    color: #000000;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    line-height: 32px;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.cb-box-active .select-button{
+    border-color: #019160;
+}
+.dropdown .select-button .title{
+    margin-right: 24px;
+}
+.dropdown .select-button .icon-button{
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    background: url(../../img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -552px -352px;
+}
+.dropdown .select-button .icon-button:hover{
+    background-color: #bbbbbb;
+}
+.option {
+    border:1px solid #bbbbbb;
+    display: none;
+    position: absolute;
+    top: -132px;
+    width: 100%;
+    box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 2px 2px;
+}
+.option .value{
+    position: relative;
+    display: flex;
+    height: 32px;
+    color: #000000;
+    padding-left: 8px;
+    padding-right: 16px;
+    text-align: 0 center;
+    background-color: #ffffff;
+    line-height: 32px;
+    box-sizing: unset;
+    cursor: pointer;
+}
+
+.option .value:hover{
+    background-color: #e5e5e5;
+}
+.option .active{
+    background-color: #248b15;
+    color: #ffffff;
+}
+.option .active:hover{
+    background-color: #35bf22;
+    color: #ffffff;
+}
+.showOption{
+        display: block;
+        z-index: 2;
+    }
